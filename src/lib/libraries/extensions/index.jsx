@@ -45,6 +45,8 @@ import gdxforIconURL from './gdxfor/gdxfor.png';
 import gdxforInsetIconURL from './gdxfor/gdxfor-small.svg';
 import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
+import newBlockImage from './newblocks/newblocks.png';
+import newBlockButtonImage from './newblocks/newblocks-small.png';
 
 export default [
     {
@@ -317,5 +319,86 @@ export default [
             />
         ),
         helpLink: 'https://scratch.mit.edu/vernier'
+    }
+,
+    {
+        name: 'MES_LED',
+        extensionId: 'mesh_led',
+        collaborator: 'Me',
+        iconURL: newBlockImage,
+        insetIconURL: newBlockButtonImage,
+        description: (
+            <FormattedMessage
+                defaultMessage="New blocks."
+                description="my block"
+                id="gui.extension.meshled.description"
+            />
+        ),
+        featured: true,
+        disabled: false,
+        internetConnectionRequired: true,
+        bluetoothRequired: false,
+        helpLink: 'https://scratch.mit.edu/wedo'
+    }
+
+ ,
+    {
+        name: 'MESH_BRIGHTNESS',
+        extensionId: 'mesh_brightness',
+        collaborator: 'Me',
+        iconURL: newBlockImage,
+        insetIconURL: newBlockButtonImage,
+        description: (
+            <FormattedMessage
+                defaultMessage="New blocks."
+                description="my block"
+                id="gui.extension.mesh_brightness.description"
+            />
+        ),
+        featured: true,
+        disabled: false,
+        internetConnectionRequired: true,
+        bluetoothRequired: false,
+        helpLink: 'https://scratch.mit.edu/wedo'
+    }
+,
+    {
+        name: 'MESH_MOTION_SENSOR',
+        extensionId: 'mesh_motion_sensor',
+        collaborator: 'Me',
+        iconURL: newBlockImage,
+        insetIconURL: newBlockButtonImage,
+        description: (
+            <FormattedMessage
+                defaultMessage="New blocks."
+                description="my block"
+                id="gui.extension.mesh_motion_sensor.description"
+            />
+        ),
+        featured: true,
+        disabled: false,
+        internetConnectionRequired: true,
+        bluetoothRequired: false,
+        helpLink: 'https://scratch.mit.edu/wedo'
+    }
+,
+    {
+        name: 'MESH_GPIO',
+        extensionId: 'mesh_gpio',
+        collaborator: 'Me',
+        iconURL: newBlockImage,
+        insetIconURL: newBlockButtonImage,
+        description: (
+            <FormattedMessage
+                defaultMessage="New blocks."
+                description="my block"
+                id="gui.extension.mesh_gpio.description"
+            />
+        ),
+        featured: true,
+        disabled: false,
+        internetConnectionRequired: true,
+        bluetoothRequired: false,
+        helpLink: 'https://scratch.mit.edu/wedo'
     }
 ];
